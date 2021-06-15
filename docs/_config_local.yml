@@ -3,13 +3,13 @@ baseurl: ""
 url: ""
 include: [".well-known"]
 # Theme
-theme: "just-the-docs"
+theme: "jekyll-theme-architect"
 # remote_theme: pmarsceill/just-the-docs
 color_scheme: xcsr
 logo: "XCSR"
 
 # Changes
-title: XCSR | Cross-Lingual Common-sense Reasoning 
+title: RiddleSense
 email: yuchen.lin@usc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   XCSR's project page. 
