@@ -44,13 +44,10 @@ p, li{
 <!-- [Video](https://mega.nz/file/5SpQjJKS#J82pfZVDzy3r4aWdNF4R6O8EP5gsepbY20vYihANfgE){: target="_blank" .btn .btn-blue .mr-1 .fs-3 }
 [Slides](/opencsr_naacl_slides.pptx){: target="_blank" .btn .btn-red .mr-1 .fs-3 } -->
 </span> 
-
 <!-- 
 [***Intro***](#intro){: .mr-1 .fs-5} 
 [***Leaderboard***](#leaderboard){:  .mr-1 .fs-5 } 
 [***Citation***](#citation){: mr-1 .fs-5 } -->
-
-
 <!-- - TOC
 {:toc} -->
 
@@ -58,7 +55,6 @@ p, li{
 [Download X-CSR Datasets](https://forms.gle/gVCNgVXr1tyYkDya9){: target="_blank" .btn .btn-blue .mr-1 .fs-3 } -->
 <!-- [Video](https://mega.nz/file/5SpQjJKS#J82pfZVDzy3r4aWdNF4R6O8EP5gsepbY20vYihANfgE){: target="_blank" .btn .btn-blue .mr-1 .fs-3 }
 [Slides](/opencsr_naacl_slides.pptx){: target="_blank" .btn .btn-red .mr-1 .fs-3 } -->
-
 ---
  
 ## Intro
