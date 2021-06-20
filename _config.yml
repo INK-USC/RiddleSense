@@ -6,10 +6,10 @@ logo: "ocs_logo.png"
 
 
 # Changes
-title: XCSR | Common Sense Beyond English
+title: RiddleSense | Project Site
 email: yuchen.lin@usc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  XCSR's project page. 
+  RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge. 
 baseurl: "/RiddleSense" # the subpath of your site, e.g. /blog
 url: "https://inklab.usc.edu/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: billyuchenlin
