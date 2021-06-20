@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: RiddleSense
 nav_order: 1
-description: "RiddleSense"
+description: "RiddleSense (ACL21)"
 permalink: /
 last_modified_date: Jun 5th 2021
 toc_list: true
@@ -14,15 +14,15 @@ toc_list: true
 <style>
 p, li{
     font-size: 20px;
-}
-#main-content {
-    float: left;
-    width: auto; }
+} 
+/* #main-content {
+    float: center;
+    width: auto; } */
 </style>
 
 
 # RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge (ACL 2021 Findings)
-
+{: .no_toc}
 ---
 
 > ***"The essence of a riddle is to express true facts under impossible combinations."*** <br/>
@@ -36,8 +36,8 @@ p, li{
 {: .no_toc}
 <!-- {: .fs-7 .fw-700 .text-blue-300 } -->
 <span class="fs-4">
-[Paper](XCSR_paper.pdf){: target="_blank" .btn .btn-green .mr-1 .fs-4}
-[Github](https://github.com/INK-USC/XCSR/){: target="_blank" .btn .btn-purple .mr-1 .fs-4 }
+[Paper](riddlesense_acl21.pdf){: target="_blank" .btn .btn-green .mr-1 .fs-4}
+[Github](https://github.com/INK-USC/RiddleSense/){: target="_blank" .btn .btn-purple .mr-1 .fs-4 }
 [Dataset](){: target="_blank" .btn .btn-blue .mr-1 .fs-4 }
 <!-- [Download MickeyCorpus](https://forms.gle/fCxN1YAyqKpQ4cXNA){: target="_blank" .btn .btn-blue .mr-1 .fs-3 }
 [Download X-CSR Datasets](https://forms.gle/gVCNgVXr1tyYkDya9){: target="_blank" .btn .btn-blue .mr-1 .fs-3 } -->
