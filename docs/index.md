@@ -2,7 +2,7 @@
 layout: default
 title: RiddleSense
 nav_order: 1
-description: "RiddleSense (ACL21)"
+description: "RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge. (ACL21 Findings)"
 permalink: /
 last_modified_date: Jun 5th 2021
 toc_list: true
