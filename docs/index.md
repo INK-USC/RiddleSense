@@ -56,7 +56,7 @@ p, li{
 
 # RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge
 {: .no_toc style="font-weight: 600; color: #ce210c; font-family: 'Agency FB Bold', arial;"}
-✍️ [***Bill Yuchen Lin***](https://yuchenlin.xyz/){: target="blank"}, [***Ziyi Wu***](), [***Yichi Yang***](), [***Dong-Ho Lee***](https://danny-lee.info/){: target="blank"}, [***Xiang Ren***](http://www-bcf.usc.edu/~xiangren/){: target="blank"} \
+✍️ [***Bill Yuchen Lin***](https://yuchenlin.xyz/){: target="blank"}, [***Ziyi Wu***](https://www.linkedin.com/in/ziyiwuxyz/), [***Yichi Yang***](), [***Dong-Ho Lee***](https://danny-lee.info/){: target="blank"}, [***Xiang Ren***](http://www-bcf.usc.edu/~xiangren/){: target="blank"} \
 🏢 ***in Proceedings of ACL 2021 Findings***
 
 ---
