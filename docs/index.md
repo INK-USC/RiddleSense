@@ -15,6 +15,37 @@ toc_list: true
 p, li{
     font-size: 16px;
 } 
+
+
+
+.acc{
+    font-weight: 700;
+    color: green;
+    text-align: center;
+}
+
+.modelname{
+    font-weight: 650;
+    text-align: center;
+    color: blue;
+}
+
+.submitter{
+    font-weight: 500;
+    text-align: center;
+    color: purple;
+}
+
+.date{
+    font-weight: 500;
+    text-align: center;
+}
+
+.traindata{
+    font-weight: 600;
+    text-align: center;
+    color: purple;
+}
 /* #main-content {
     float: center;
     width: auto; } */
@@ -40,6 +71,7 @@ p, li{
 [Paper](riddlesense_acl21.pdf){: target="_blank" .btn .btn-green .mr-1 .fs-4}
 [Github](https://github.com/INK-USC/RiddleSense/){: target="_blank" .btn .btn-purple .mr-1 .fs-4 }
 [Dataset](https://forms.gle/iWdsgN44TeoXW19e6){: target="_blank" .btn .btn-blue .mr-1 .fs-4 }
+[Leaderboard](#leaderboard){: .btn .btn-red .mr-1 .fs-4 }
 <!-- [Download MickeyCorpus](https://forms.gle/fCxN1YAyqKpQ4cXNA){: target="_blank" .btn .btn-blue .mr-1 .fs-3 }
 [Download X-CSR Datasets](https://forms.gle/gVCNgVXr1tyYkDya9){: target="_blank" .btn .btn-blue .mr-1 .fs-3 } -->
 <!-- [Video](https://mega.nz/file/5SpQjJKS#J82pfZVDzy3r4aWdNF4R6O8EP5gsepbY20vYihANfgE){: target="_blank" .btn .btn-blue .mr-1 .fs-3 }
@@ -113,7 +145,96 @@ Please download our dataset by filling the [***form***](https://forms.gle/iWdsgN
 
 ## Leaderboard
 
-
+<table>
+<thead>
+  <tr>
+    <th>Model</th>
+    <th>Submitter</th>
+    <th>Date</th>
+    <th>Training Data</th>
+    <th>Acc</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="modelname" style="background-color: #f5f6fa">Humans</td>
+    <td class="submitter"  style="background-color: #f5f6fa">-</td>
+    <td class="date"  style="background-color: #f5f6fa">-</td>
+    <td class="traindata"  style="background-color: #f5f6fa">N/A</td>
+    <td class="acc"  style="background-color: #f5f6fa">91.33</td>
+  </tr>
+  <tr>
+    <td class="modelname">UnifiedQA (T5-3B) </td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">68.80</td>
+  </tr>
+  <tr>
+    <td class="modelname">ALBERT-XXL </td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">67.30</td>
+  </tr>
+  <tr>
+    <td class="modelname">MHGRN (AB-XXL) </td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">66.81</td>
+  </tr>
+  <tr>
+    <td class="modelname">MHGRN (RB-L) </td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">63.73</td>
+  </tr>
+  <tr>
+    <td class="modelname">RoBERTa-Large&nbsp;&nbsp;</td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">59.82</td>
+  </tr>
+  <tr>
+    <td class="modelname">KagNet (RB-L)</td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">59.72</td>
+  </tr>
+  <tr>
+    <td class="modelname">UnifiedQA (T5-L)</td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">56.57</td>
+  </tr>
+  <tr>
+    <td class="modelname">BERT-Large&nbsp;&nbsp;</td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">54.91</td>
+  </tr>
+  <tr>
+    <td class="modelname">BERT-Base </td>
+    <td class="submitter">USC-INK</td>
+    <td class="date">5/30/2021</td>
+    <td class="traindata">RS+CSQA</td>
+    <td class="acc">47.67</td>
+  </tr>
+  <tr>
+    <td class="modelname"  style="background-color: #f5f6fa">Random Guess</td>
+    <td class="submitter"  style="background-color: #f5f6fa">-</td>
+    <td class="date"  style="background-color: #f5f6fa">-</td>
+    <td class="traindata"  style="background-color: #f5f6fa">N/A</td>
+    <td class="acc"  style="background-color: #f5f6fa">20.00</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Citation
