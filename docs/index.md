@@ -9,9 +9,11 @@ toc_list: true
 ---
 
 
-<link href="http://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
+<!-- <link href="http://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" /> -->
 
 <style>
+@font-face{font-family:agency fb bold;font-style:normal;font-weight:700;src:local('Agency FB Bold'),local('AgencyFB-Bold'),url(http://allfont.net/cache/fonts/agency-fb-bold_cee84847c4ab16cf2b0952d063712724.woff) format('woff'),url(http://allfont.net/cache/fonts/agency-fb-bold_cee84847c4ab16cf2b0952d063712724.ttf) format('truetype')}
+
 p, li{
     font-size: 16px;
 } 
@@ -239,6 +241,10 @@ Please download our dataset by filling the [***form***](https://forms.gle/iWdsgN
 </tbody>
 </table>
 
+### Submission Guide
+{: .no_toc}
+
+This is an example submission file. Please follow the same format.
 
 ## Citation
 
