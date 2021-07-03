@@ -244,7 +244,7 @@ Please download our dataset by filling the [***form***](https://forms.gle/iWdsgN
 ### Submission Guide
 {: .no_toc}
 
-This is an example submission file. Please follow the same format.
+This is [***an example submission file***](submission_example.jsonl){: target="_blank"}. Please submit your prediction file and information via [***this form***](https://forms.gle/a3yyoxmgj1FoJpMM7){: target="_blank"}.
 
 ## Citation
 
