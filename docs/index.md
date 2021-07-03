@@ -9,7 +9,7 @@ toc_list: true
 ---
 
 
-
+<link href="http://allfont.net/allfont.css?fonts=agency-fb-bold" rel="stylesheet" type="text/css" />
 
 <style>
 p, li{
@@ -52,8 +52,11 @@ p, li{
 </style>
 
 
-# RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge (ACL 2021 Findings)
-{: .no_toc}
+# RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge
+{: .no_toc style="font-weight: 600; color: #ce210c; font-family: 'Agency FB Bold', arial;"}
+✍️ [***Bill Yuchen Lin***](https://yuchenlin.xyz/){: target="blank"}, [***Ziyi Wu***](), [***Yichi Yang***](), [***Dong-Ho Lee***](https://danny-lee.info/){: target="blank"}, [***Xiang Ren***](http://www-bcf.usc.edu/~xiangren/){: target="blank"} \
+🏢 ***in Proceedings of ACL 2021 Findings***
+
 ---
 
 > _"The essence of a riddle is to express true facts under impossible combinations."_  — ***Aristotle***, ***Poetics*** (350 BCE)
