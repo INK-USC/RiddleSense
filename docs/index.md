@@ -25,8 +25,7 @@ p, li{
 {: .no_toc}
 ---
 
-> ***"The essence of a riddle is to express true facts under impossible combinations."*** <br/>
-> — Aristotle, Poetics (350 BCE)
+> _"The essence of a riddle is to express true facts under impossible combinations."_  — ***Aristotle***, ***Poetics*** (350 BCE)
 {: .fs-7 .fw-500 .text-blue-300 }
 
 ---
@@ -62,7 +61,7 @@ p, li{
 This is a joint work by Google Research and USC. -->
 
  
-![intro](images/introduction.png)
+![intro](images/riddle_intro.png){: style="border: 2px solid black"}
 <!-- ##  --> 
 <!-- ***Abstract.***{: .text-red-100}  -->
 
