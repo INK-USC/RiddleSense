@@ -113,7 +113,118 @@ We systematically evaluate a wide range of models over the challenge, and point 
 
 ## Examples
 
-![examples](images/examples.png){: style=""}
+<!-- ![examples](images/examples.png){: style=""} -->
+
+<div class="1">
+    <h3 class="no_toc">- Example 1: I am black when you buy me, red when you use me. When I turn white, you know it's time to trow me away. What am I?</h3>
+    <select>
+        <option >Select</option>
+        <option class="right">A. charcoal</option>
+        <option >B. rose flower</option>
+        <option >C. ink</option>
+        <option >D. fruit</option>
+        <option >E. shoe</option>
+    </select>
+    <div class="check-answer">Select your answer to this riddle!</div>
+    <div style="display: none" class="answer" ><span style="font-weight: 500">UnifiedQA's Wrong Prediction:</span> C (ink).  <br>  <span style="font-weight: 600; color: blue">Explanation: </span> Describing multiple conditions 
+of a common object. Only charcoal applies to all the descriptions.</div>
+</div>
+
+<div class="2">
+    <h3 class="no_toc">- Example 2: I have a long tail that I let fly. Every time I go through a gap, I leave a bit of my tail in the trap. What am I?  </h3>
+    <select>
+        <option >Select</option>
+        <option >A. monkey</option>
+        <option >B. basketball</option>
+        <option >C. fishing pole</option>
+        <option >D. comet</option>
+        <option class="right">E. needle</option>
+    </select>
+    <div class="check-answer">Select your answer to this riddle!</div>
+    <div style="display: none" class="answer" ><span style="font-weight: 500">UnifiedQA's Wrong Prediction:</span> C (fishing pole). <br> <span style="font-weight: 600; color: blue">Explanation: </span> Describing a common event and involved objects with metaphor. tail → thread; fly → sew; </div>
+</div>
+
+<div class="3">
+    <h3 class="no_toc">- Example 3: If you take off my skin, I will not cry, but you will. What am I?</h3>
+    <select>
+        <option >Select</option>
+        <option >A. grape</option>
+        <option class="right">B. onion</option>
+        <option >C. package</option>
+        <option >D. plant</option>
+        <option >E. body</option>
+    </select>
+    <div class="check-answer">Select your answer to this riddle!</div>
+    <div style="display: none" class="answer" ><span style="font-weight: 500">UnifiedQA's Wrong Prediction:</span> E (body). <br> <span style="font-weight: 600; color: blue">Explanation: </span> Personalization. Cutting onions 
+→ taking off my skin. </div>
+</div>
+
+<div class="4">
+    <h3 class="no_toc">- Example 4: What is that which, though black itself, enlightens the world without burning? </h3>
+    <select>
+        <option >Select</option>
+        <option >A. coal</option>
+        <option >B. hole</option>
+        <option >C. cd paper</option>
+        <option >D. sunlight</option>
+        <option class="right">E. ink</option>
+    </select>
+    <div class="check-answer">Select your answer to this riddle!</div>
+    <div style="display: none" class="answer" ><span style="font-weight: 500">UnifiedQA's Wrong Prediction:</span> C (cd paper). <br> <span style="font-weight: 600; color: blue">Explanation: </span> Figure of speech (ink → writing → knowledge → light of wisdom)
++ Counterfactual (without burning) </div>
+</div>
+
+<div class="5">
+    <h3 class="no_toc">- Example 5: I have hundreds of legs, but I can only lean. What am I?</h3>
+    <select>
+        <option >Select</option>
+        <option >A. chair</option>
+        <option >B. sock</option>
+        <option >C. pleopod</option>
+        <option >D. pant</option>
+        <option class="right">E. broom</option>
+    </select>
+    <div class="check-answer">Select your answer to this riddle!</div>
+    <div style="display: none" class="answer" ><span style="font-weight: 500">UnifiedQA's Wrong Prediction:</span> C (pleopod). <br> <span style="font-weight: 600; color: blue">Explanation: </span> Counterfactual (many legs but 
+cannot stand) + Metaphor (bristles) </div>
+</div>
+
+
+
+<script>
+    window.onload = function() {
+
+        var selects = document.getElementsByTagName("select")
+        console.log(selects.length)
+        for (var i = 0; i < selects.length; i++) {
+
+            selects[i].addEventListener("change", function (e) {
+                var childrens = e.target.children
+                console.log(e.target.parentNode.className)
+                for(var j=0;j<childrens.length;j++) {
+                    if (childrens[j].className == "right"){
+                        var right_index = j
+                    }
+                }
+                var parent = e.target.parentNode.className
+                if (e.target.selectedIndex == right_index) {
+                    document.getElementsByClassName("check-answer")[parent-1].innerHTML = "Yay! You selected a correct answer! &#128578;"
+                    document.getElementsByClassName("check-answer")[parent-1].style.color = "green"
+                    document.getElementsByClassName("answer")[parent-1].style.display = "block"
+                }else{
+                    document.getElementsByClassName("check-answer")[parent-1].innerHTML = "Hmm, it's incorrect. Try again? &#128549;"
+                    document.getElementsByClassName("check-answer")[parent-1].style.color = "red"
+                }
+                
+            })
+
+
+        }
+    } 
+</script>
+
+
+
 
 ## Dataset Format
 
@@ -169,64 +280,64 @@ Please download our dataset by filling the [***form***](https://forms.gle/iWdsgN
     <td class="acc"  style="background-color: #f5f6fa">91.33</td>
   </tr>
   <tr>
-    <td class="modelname">UnifiedQA (T5-3B) </td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/2005.00700" target="_blank">UnifiedQA (T5-3B) </a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">68.80</td>
   </tr>
   <tr>
-    <td class="modelname">ALBERT-XXL </td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/1909.11942" target="_blank">ALBERT-XXL </a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">67.30</td>
   </tr>
   <tr>
-    <td class="modelname">MHGRN (AB-XXL) </td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/2005.00646" target="_blank">MHGRN (AB-XXL) </a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">66.81</td>
   </tr>
   <tr>
-    <td class="modelname">MHGRN (RB-L) </td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/2005.00646" target="_blank">MHGRN (RoBERTa-Large) </a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">63.73</td>
   </tr>
   <tr>
-    <td class="modelname">RoBERTa-Large&nbsp;&nbsp;</td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/1907.11692" target="_blank">RoBERTa-Large </a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">59.82</td>
   </tr>
   <tr>
-    <td class="modelname">KagNet (RB-L)</td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/1909.02151" target="_blank">KagNet (RoBERTa-Large)</a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">59.72</td>
   </tr>
   <tr>
-    <td class="modelname">UnifiedQA (T5-L)</td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/2005.00700" target="_blank">UnifiedQA (T5-Large)</a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">56.57</td>
   </tr>
   <tr>
-    <td class="modelname">BERT-Large&nbsp;&nbsp;</td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT-Large</a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">54.91</td>
   </tr>
   <tr>
-    <td class="modelname">BERT-Base </td>
-    <td class="submitter">USC-INK</td>
+    <td class="modelname"><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT-Base</a></td>
+    <td class="submitter"><a href="http://inklab.usc.edu" target="_blank">USC-INK</a></td>
     <td class="date">5/30/2021</td>
     <td class="traindata">RS+CSQA</td>
     <td class="acc">47.67</td>
