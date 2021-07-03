@@ -6,7 +6,7 @@ include: [".well-known"]
 theme: "just-the-docs"
 # remote_theme: pmarsceill/just-the-docs
 color_scheme: xcsr
-logo: "XCSR"
+logo: ""
 
 # Changes
 title: RiddleSense | Project Site
