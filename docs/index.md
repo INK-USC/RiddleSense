@@ -73,7 +73,7 @@ p, li{
 {: .no_toc}
 <!-- {: .fs-7 .fw-700 .text-blue-300 } -->
 <span class="fs-4">
-[Paper](riddlesense_acl21.pdf){: target="_blank" .btn .btn-green .mr-1 .fs-4}
+[Paper](riddlesense_acl21_paper.pdf){: target="_blank" .btn .btn-green .mr-1 .fs-4}
 [Github](https://github.com/INK-USC/RiddleSense/){: target="_blank" .btn .btn-purple .mr-1 .fs-4 }
 [Dataset](https://forms.gle/iWdsgN44TeoXW19e6){: target="_blank" .btn .btn-blue .mr-1 .fs-4 }
 [Leaderboard](#leaderboard){: .btn .btn-red .mr-1 .fs-4 }
