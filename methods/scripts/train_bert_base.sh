@@ -1,13 +1,13 @@
-DATA_DIR=models/data_dir/riddle_sense
+DATA_DIR=data_dir
 MODEL_DIR=~/riddle_models/bert_base
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python models/run_mcqa.py \
-    --task_name riddleqa \
+    --task_name riddlesense \
     --model_name_or_path bert-base-uncased \
     --do_train \
     --do_eval \
     --data_dir $DATA_DIR \
-    --train_file ${DATA_DIR}/train.jsonl \
-    --val_file ${DATA_DIR}/dev.jsonl \
+    --train_file ${DATA_DIR}/rs_train.jsonl \
+    --val_file ${DATA_DIR}/rs_dev.jsonl \
     --evaluate_during_training \
     --evaluation_strategy steps \
     --load_best_model_at_end \
@@ -25,5 +25,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python models/run_mcqa.py \
     --fp16 --overwrite_output \
     --overwrite_cache \
     --do_predict \
-    --test_file ${DATA_DIR}/test.jsonl \
+    --test_file ${DATA_DIR}/rs_test.jsonl \
     --prediction_output ${DATA_DIR}/results/bert_base_result.npy 

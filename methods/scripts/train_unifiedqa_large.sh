@@ -1,4 +1,4 @@
-DATA_DIR=models/data_dir/riddle_sense/
+DATA_DIR=data_dir/
 MODEL_DIR=~/riddle_models/unifiedqa_large
 python models/t5/finetune.py \
     --data_dir ${DATA_DIR} \

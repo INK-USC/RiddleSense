@@ -107,7 +107,7 @@ def main():
 
     args = parser.parse_known_args()[0]
 
-    test_ground_truth_labels_file = os.path.join(args.ground_truth_labels_dir, "test.jsonl")
+    test_ground_truth_labels_file = os.path.join(args.ground_truth_labels_dir, "rs_test.jsonl")
     test_predicted_labels_file = os.path.join(args.predicted_labels_dir, "test.csv")
     test_question_answers = read_answers(test_ground_truth_labels_file)
     test_predictions = read_predictions(test_predicted_labels_file)
@@ -115,7 +115,7 @@ def main():
     test_out = "Test Accuracy score = " + str(calculate_accuracy(test_question_answers, test_predictions)) + "\n"
     print(test_out)
 
-    dev_ground_truth_labels_file = os.path.join(args.ground_truth_labels_dir, "dev.jsonl")
+    dev_ground_truth_labels_file = os.path.join(args.ground_truth_labels_dir, "rs_dev.jsonl")
     dev_predicted_labels_file = os.path.join(args.predicted_labels_dir, "dev.csv")
     dev_question_answers = read_answers(dev_ground_truth_labels_file)
     dev_predictions = read_predictions(dev_predicted_labels_file)

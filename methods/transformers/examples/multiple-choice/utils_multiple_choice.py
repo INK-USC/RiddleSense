@@ -425,11 +425,11 @@ class ArcProcessor(DataProcessor):
     def get_dev_examples(self, data_dir):
         """See base class."""
         logger.info("LOOKING AT {} dev".format(data_dir))
-        return self._create_examples(self._read_json(os.path.join(data_dir, "dev.jsonl")), "dev")
+        return self._create_examples(self._read_json(os.path.join(data_dir, "rs_dev.jsonl")), "dev")
 
     def get_test_examples(self, data_dir):
         logger.info("LOOKING AT {} test".format(data_dir))
-        return self._create_examples(self._read_json(os.path.join(data_dir, "test.jsonl")), "test")
+        return self._create_examples(self._read_json(os.path.join(data_dir, "rs_test.jsonl")), "test")
 
     def get_labels(self):
         """See base class."""

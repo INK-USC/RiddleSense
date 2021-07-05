@@ -44,11 +44,11 @@ class DataProcessor:
 
 
 class RiddleSenseProcessor(DataProcessor):
-    """Processor for the RiddleQA data set."""
+    """Processor for the riddlesense data set."""
 
     TRAIN_FILE_NAME = 'train.jsonl'
-    DEV_FILE_NAME = 'dev.jsonl'
-    TEST_FILE_NAME = 'test.jsonl'
+    DEV_FILE_NAME = 'rs_dev.jsonl'
+    TEST_FILE_NAME = 'rs_test.jsonl'
 
     def get_train_examples(self, data_dir, num_choices=5):
         train_file_name = self.TRAIN_FILE_NAME

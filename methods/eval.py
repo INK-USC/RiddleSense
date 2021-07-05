@@ -10,7 +10,7 @@ import numpy as np
 def eval_npy(prediction_file):
   """Main fucntion.""" 
   instances = []
-  with open("models/data_dir/riddle_sense/test.jsonl") as f:
+  with open("models/data_dir/riddle_sense/rs_test.jsonl") as f:
     for line in f.read().splitlines():
       if line:
         instances.append(json.loads(line))

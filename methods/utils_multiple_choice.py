@@ -178,8 +178,8 @@ def convert_ABC_to_123(s):
     return ord(s)-65+1
     
 
-class RiddleQAProcessor(DataProcessor):
-    """Processor for the RiddleQA data set."""
+class riddlesenseProcessor(DataProcessor):
+    """Processor for the riddlesense data set."""
 
     def get_train_examples(self, file_path, num_choices=5, percentage=100):
         """See base class."""
@@ -321,4 +321,4 @@ def convert_examples_to_features(
     return features
 
 
-processors = {"riddleqa": RiddleQAProcessor}
+processors = {"riddlesense": riddlesenseProcessor}
