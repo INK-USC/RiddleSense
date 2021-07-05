@@ -58,3 +58,16 @@ bash models/scripts/train_albert_xxlarge.sh
 
 For fine-tuning UnifiedQA models, please refer to our instruction here: [methods/t5/README.md](methods/t5/README.md).
 
+
+
+## Citation
+
+```bibtex
+@inproceedings{lin-etal-2021-riddlesense,
+    title = "RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge",
+    author = "Lin, Bill Yuchen and Wu, Ziyi and Yang, Yichi and Lee, Dong-Ho and Ren, Xiang",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL-IJCNLP 2021): Findings",
+    year = "2021",
+    note={to appear}
+}
+```
