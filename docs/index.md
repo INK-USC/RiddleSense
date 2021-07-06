@@ -116,7 +116,7 @@ We systematically evaluate a wide range of models over the challenge, and point 
 <!-- ![examples](images/examples.png){: style=""} -->
 
 <div class="1">
-    <h3 class="no_toc" style="color: orange">- Example 1: I am black when you buy me, red when you use me. When I turn white, you know it's time to trow me away. What am I?</h3>
+    <h3 class="no_toc" style="color: orange"><span style="color: purple">- Example 1: </span> I am black when you buy me, red when you use me. When I turn white, you know it's time to trow me away. What am I?</h3> 
     <select>
         <option >Select</option>
         <option class="right">A. charcoal</option>
@@ -131,7 +131,7 @@ of a common object. Only charcoal applies to all the descriptions.</div>
 </div>
 
 <div class="2">
-    <h3 class="no_toc" style="color: orange">- Example 2: I have a long tail that I let fly. Every time I go through a gap, I leave a bit of my tail in the trap. What am I?  </h3>
+    <h3 class="no_toc" style="color: orange" style="color: orange"><span style="color: purple">- Example 2: </span> I have a long tail that I let fly. Every time I go through a gap, I leave a bit of my tail in the trap. What am I?  </h3>
     <select>
         <option >Select</option>
         <option >A. monkey</option>
@@ -145,7 +145,7 @@ of a common object. Only charcoal applies to all the descriptions.</div>
 </div>
 
 <div class="3">
-    <h3 class="no_toc" style="color: orange">- Example 3: If you take off my skin, I will not cry, but you will. What am I?</h3>
+    <h3 class="no_toc" style="color: orange" style="color: orange"><span style="color: purple">- Example 3: </span> If you take off my skin, I will not cry, but you will. What am I?</h3>
     <select>
         <option >Select</option>
         <option >A. grape</option>
@@ -160,7 +160,7 @@ of a common object. Only charcoal applies to all the descriptions.</div>
 </div>
 
 <div class="4">
-    <h3 class="no_toc" style="color: orange">- Example 4: What is that which, though black itself, enlightens the world without burning? </h3>
+    <h3 class="no_toc" style="color: orange" style="color: orange"><span style="color: purple">- Example 4: </span> What is that which, though black itself, enlightens the world without burning? </h3>
     <select>
         <option >Select</option>
         <option >A. coal</option>
@@ -175,7 +175,7 @@ of a common object. Only charcoal applies to all the descriptions.</div>
 </div>
 
 <div class="5">
-    <h3 class="no_toc" style="color: orange">- Example 5: I have hundreds of legs, but I can only lean. What am I?</h3>
+    <h3 class="no_toc" style="color: orange" style="color: orange"><span style="color: purple">- Example 5: </span> I have hundreds of legs, but I can only lean. What am I?</h3>
     <select>
         <option >Select</option>
         <option >A. chair</option>
